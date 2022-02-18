@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Supermercado One', cursive;
+    font-family: 'poppins', ;
+    
 }
 #navbar{
     position: sticky;
@@ -12,23 +13,23 @@
     z-index: 100;
     padding: .5rem 5rem;
     box-shadow: 5px 5px 20px rgba(0,0,0,.5);
-    background: rgb(235, 209, 209);
+    background: rgb(142, 38, 160);
 
 }
 .navbar .navbar-brand{
     font-size: 25px;
     font-weight: 800;
-    color: rgb(54, 146, 31) !important;
+    color: rgb(112, 3, 116) !important;
 }
 #navbarSupportedContent a{
-    color: darkgreen;
+    color: rgb(51, 23, 47);
     border-bottom: 2px solid transparent;
 }
 #navbarSupportedContent a:hover{
-    border-bottom: 2px solid rgb(141, 255, 34);
+    border-bottom: 2px solid rgb(71, 3, 60);
 }
 #navbarSupportedContent button{
-    background: #58b30d;
+    background: #222c19;
     width: 5rem;
     border-radius: 15px;
 }
@@ -40,9 +41,8 @@ section{
     align-items:center;
 }
 #home{
-    background-color: rgb(6, 139, 35);
-    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0,0,0,10)),url(https://tse3.mm.bing.net/th?id=OIP.qMkv_mJbd6iModg-8_NE0gHaEo&pid=Api&P=0&w=261&h=163);
-    background-size: cover;
+    background-color: rgb(21, 11, 58);
+    background: linear-gradient(rgba(1, 1, 1, 0.1),rgba(0,1,0,10)),url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fwallpapers%2Fart%2Fglitter&psig=AOvVaw10pmm-cTy67kQJAyXkFx2I&ust=1645265106422000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKj_2aOAifYCFQAAAAAdAAAAABAD);
     background-position: center;
     flex-direction: column;
     
@@ -52,7 +52,8 @@ section{
 }
 #home h1{
     font-size: 100px;
-    color: white;
+    vertical-align: text-top;
+    color: rgb(222, 215, 228);
     letter-spacing: 3px;
     text-shadow: 0px 1px 0px #8ccebd,
                  0px 1px 0px #8ccebd,
@@ -64,6 +65,7 @@ section{
 #home p{
     font-size: 20px;
     color: antiquewhite;
+    margin-left: 10%;
 }
 #home .input-group{
     width: 40%;
